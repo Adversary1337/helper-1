@@ -709,6 +709,98 @@
       "grenade": {
         "run": 22
       }
+    },
+    {
+      "name": ["Roof", "Car"],
+      "weapon": "weapon_hegrenade",
+      "position": [-449.97875976563, -688.35192871094, 188.03123474121],
+      "viewangles": [-0.8803151845932, 13.521266937256],
+      "grenade": {
+        "run": 10
+      }
+    },
+    {
+      "name": ["Patio", "Car"],
+      "weapon": "weapon_molotov",
+      "position": [-708.12554931641, -731.05578613281, 149.03125],
+      "viewangles": [6.6792135238647, 12.299731254578],
+      "grenade": {
+        "run": 5,
+        "recovery_yaw": 0,
+        "jump": true
+      }
+    },
+    {
+      "name": ["Roof", "SWAT"],
+      "weapon": "weapon_molotov",
+      "position": [-428.80838012695, -633.84393310547, 188.03125],
+      "viewangles": [-10.084847450256, 5.2872195243835],
+      "grenade": {
+        "run": 22
+      }
+    },
+    {
+      "name": ["Roof", "Swat"],
+      "weapon": "weapon_molotov",
+      "position": [-33.445133209229, -850.95574951172, 239.03125],
+      "viewangles": [10.749250411987, 15.841251373291],
+      "grenade": {
+        "run": 10,
+        "recovery_jump": true,
+        "run_speed": true,
+        "delay": 1,
+        "recovery_yaw": 5,
+        "jump": true
+      }
+    },
+    {
+      "name": ["Roof", "Car"],
+      "weapon": "weapon_molotov",
+      "position": [-527.70141601563, -956.70166015625, 188.03125],
+      "viewangles": [-2.3479714393616, 23.817991256714],
+      "grenade": {
+        "run": 10
+      }
+    },
+    {
+      "name": ["Roof", "Car"],
+      "weapon": "weapon_molotov",
+      "position": [-410.21542358398, -772.25610351563, 188.03125],
+      "viewangles": [-12.989395141602, 18.828409194946],
+      "grenade": {
+        "run": 15
+      },
+      "duck": true
+    },
+    {
+      "name": ["SWAT", "Vents"],
+      "weapon": "weapon_molotov",
+      "position": [1664.5, -533.63732910156, -30.538902282715],
+      "viewangles": [-5.489531993866, 171.5595703125],
+      "grenade": {
+        "run": 26,
+        "recovery_yaw": -52,
+        "jump": true
+      }
+    },
+    {
+      "name": ["T", "Car"],
+      "weapon": "weapon_molotov",
+      "position": [-1086.9650878906, -139.33857727051, -31.96875],
+      "viewangles": [1.8644828796387, -4.4370555877686],
+      "grenade": {
+        "run": 22,
+        "jump": true
+      }
+    },
+    {
+      "name": ["Roof", "Car"],
+      "weapon": "weapon_hegrenade",
+      "position": [-697.15789794922, -214.67477416992, 149.03125],
+      "viewangles": [-4.3724517822266, -4.7671060562134],
+      "grenade": {
+        "run": 24
+      }
     }
   ],
   "de_cache": [
@@ -11544,18 +11636,6 @@
       }
     },
     {
-      "name": ["Short", "Pillar"],
-      "weapon": "weapon_molotov",
-      "position": [-1099.7006835938, -631.24047851563, 96.03125],
-      "viewangles": [16.23602104187, 101.16638946533],
-      "grenade": {
-        "run": 11,
-        "delay": 4,
-        "run_yaw": -90,
-        "jump": true
-      }
-    },
-    {
       "name": ["Short", "Pillar Rush"],
       "weapon": "weapon_molotov",
       "position": [-1138.3288574219, -589.94183349609, 75.393623352051],
@@ -11649,6 +11729,21 @@
         "run": 11,
         "delay": 4,
         "run_yaw": -90,
+        "jump": true
+      }
+    },
+    {
+      "name": ["Short", "Pilar"],
+      "weapon": "weapon_molotov",
+      "position": [-1144.6868896484, -591.68444824219, 72.294250488281],
+      "viewangles": [-9.7357883453369, 58.071704864502],
+      "grenade": {
+        "strength": 0.5,
+        "run": 23,
+        "recovery_jump": true,
+        "delay": 5,
+        "recovery_yaw": 52,
+        "run_yaw": -180,
         "jump": true
       }
     }
