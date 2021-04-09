@@ -1,7 +1,7 @@
 {
   "name":"floffyz",
   "description":"yt.com/floffyz",
-  "update_timestamp": 1617403816,
+  "update_timestamp":1617964800,
   "url":"https://raw.githubusercontent.com/floffyz/helper/main/floffyz.json",
   "locations":{
     "cs_agency": [
@@ -1634,7 +1634,9 @@
         "position": [826.23150634766, 1642.6612548828, -23.188982009888],
         "viewangles": [-7.0497107505798, 128.86215209961],
         "grenade": {
-          "run": 26
+          "run": 26,
+          "recovery_jump": true,
+          "recovery_yaw": 90
         }
       },
       {
@@ -1952,6 +1954,7 @@
       },
       {
         "name": ["Unnamed", "House"],
+        "description": "UNSAFE",
         "weapon": "weapon_molotov",
         "position": [-750.78576660156, 1761.0467529297, 0.03125],
         "viewangles": [1.0461981296539, 8.651008605957],
@@ -1964,18 +1967,20 @@
       },
       {
         "name": ["Unnamed", "Stairs"],
+        "description": "FAKEDUCK",
         "weapon": "weapon_molotov",
         "position": [63.712905883789, 811.83331298828, -159.96875],
         "viewangles": [-2.0775272846222, 67.013084411621],
         "grenade": {
           "run": 25,
           "recovery_jump": true,
-          "run_yaw": 89,
+          "run_yaw": 88,
           "jump": true
         }
       },
       {
         "name": ["Unnamed", "Wall [Left]"],
+        "description": "UNSAFE",
         "weapon": "weapon_molotov",
         "position": [63.766139984131, 811.72375488281, -159.97500610352],
         "viewangles": [-3.3130514621735, 80.523872375488],
@@ -2197,6 +2202,58 @@
         "grenade": {
           "run": 1,
           "run_speed": true
+        }
+      },
+      {
+        "name": ["Unnamed", "Inside"],
+        "description": "FUCK HOSTAGE",
+        "weapon": "weapon_molotov",
+        "position": [-973.03668212891, 848.07360839844, -150.99653625488],
+        "viewangles": [-18.570003509521, 65.873764038086],
+        "grenade": {
+          "delay": 16,
+          "jump": true
+        }
+      },
+      {
+        "name": ["Unnamed", "Corner"],
+        "weapon": "weapon_molotov",
+        "position": [-1459.3489990234, 206.68733215332, -159.96875],
+        "viewangles": [-3.794933795929, 62.642459869385],
+        "grenade": {
+          "run": 20,
+          "jump": true
+        }
+      },
+      {
+        "name": ["Unnamed", "Door"],
+        "description": "anti-push",
+        "weapon": "weapon_molotov",
+        "position": [-591.55688476563, 1938.0386962891, 0.03125],
+        "viewangles": [-4.0987024307251, -141.90129089355],
+        "grenade": {
+          "run": 1
+        }
+      },
+      {
+        "name": ["Unnamed", "Car"],
+        "weapon": "weapon_molotov",
+        "position": [-1042.0198974609, -17.863681793213, -151.96875],
+        "viewangles": [0.19128733873367, 121.637840271],
+        "grenade": {
+          "run": 11,
+          "jump": true
+        }
+      },
+      {
+        "name": ["Unnamed", "Inside"],
+        "description": "LOW DMG",
+        "weapon": "weapon_hegrenade",
+        "position": [-978.39086914063, 848.03125, -150.97700500488],
+        "viewangles": [-16.807388305664, 65.196022033691],
+        "grenade": {
+          "delay": 16,
+          "jump": true
         }
       }
     ],
@@ -85540,18 +85597,6 @@
         }
       },
       {
-        "name": ["Back of B", "B Platform"],
-        "description": "runboost",
-        "weapon": "weapon_molotov",
-        "position": [-1054.9956054688, -1047.0147705078, -79.9375],
-        "viewangles": [7.5585885047913, 4.5773272514343],
-        "grenade": {
-          "run": 26,
-          "delay": 3,
-          "jump": true
-        }
-      },
-      {
         "name": ["B Platform", "Back Of B"],
         "weapon": "weapon_molotov",
         "position": [1054.408203125, -863.55450439453, -255.96875],
@@ -85602,6 +85647,18 @@
         "grenade": {
           "delay": 5,
           "recovery_yaw": 0,
+          "jump": true
+        }
+      },
+      {
+        "name": ["Back of B", "B Platform"],
+        "description": "runboost",
+        "weapon": "weapon_molotov",
+        "position": [-1054.9956054688, -1047.0147705078, -75.9375],
+        "viewangles": [7.5585885047913, 4.5773272514343],
+        "grenade": {
+          "run": 26,
+          "delay": 3,
           "jump": true
         }
       }
