@@ -1,7 +1,7 @@
 {
   "name":"floffyz",
-  "description":"yt.com/floffyz",
-  "update_timestamp":1617964800,
+  "description":"yt.com/floffyz / Old cache nades added",
+  "update_timestamp":1618223136,
   "url":"https://raw.githubusercontent.com/floffyz/helper/main/floffyz.json",
   "locations":{
     "cs_agency": [
@@ -1966,20 +1966,20 @@
         }
       },
       {
-        "name": ["Unnamed", "Stairs"],
-        "description": "FAKEDUCK",
+        "name": ["Unnamed", "Stairs FD"],
+        "description": "UNSAFE",
         "weapon": "weapon_molotov",
         "position": [63.712905883789, 811.83331298828, -159.96875],
         "viewangles": [-2.0775272846222, 67.013084411621],
         "grenade": {
           "run": 25,
           "recovery_jump": true,
-          "run_yaw": 88,
+          "run_yaw": 87,
           "jump": true
         }
       },
       {
-        "name": ["Unnamed", "Wall [Left]"],
+        "name": ["Unnamed", "Back FD"],
         "description": "UNSAFE",
         "weapon": "weapon_molotov",
         "position": [63.766139984131, 811.72375488281, -159.97500610352],
@@ -2253,6 +2253,86 @@
         "viewangles": [-16.807388305664, 65.196022033691],
         "grenade": {
           "delay": 16,
+          "jump": true
+        }
+      },
+      {
+        "name": ["Inside", "Wall"],
+        "description": "1way",
+        "weapon": "weapon_awp",
+        "position": [-641.44708251953, 1256.6689453125, -55.96875],
+        "viewangles": [-3.0785126686096, 178.77114868164],
+        "movement": {
+          "frames": [
+            2
+          ]
+        }
+      },
+      {
+        "name": ["Unnamed", "Left Wall"],
+        "description": "unsafe",
+        "weapon": "weapon_hegrenade",
+        "position": [60.458961486816, 783.30291748047, -161.59501647949],
+        "viewangles": [2.5298712253571, 86.85440826416],
+        "grenade": {
+          "run": 11,
+          "run_yaw": 90,
+          "jump": true
+        }
+      },
+      {
+        "name": ["Unnamed", "Left Wall"],
+        "description": "unsafe",
+        "weapon": "weapon_molotov",
+        "position": [60.339511871338, 783.24395751953, -161.59925842285],
+        "viewangles": [5.0049395561218, 86.530128479004],
+        "grenade": {
+          "run": 11,
+          "run_yaw": 90,
+          "jump": true
+        }
+      },
+      {
+        "name": ["Unnamed", "Push"],
+        "weapon": "weapon_hegrenade",
+        "position": [-615.60467529297, 2029.3420410156, 8.8539352416992],
+        "viewangles": [-2.7009999752045, -114.07917785645],
+        "grenade": {
+          "run": 15,
+          "recovery_yaw": 90
+        }
+      },
+      {
+        "name": ["Unnamed", "Hidden Spot"],
+        "weapon": "weapon_molotov",
+        "position": [891.31225585938, 323.09909057617, -151.96875],
+        "viewangles": [-8.0361890792847, 118.43493652344],
+        "grenade": {
+          "run": 15,
+          "recovery_yaw": -90
+        }
+      },
+      {
+        "name": ["Unnamed", "Hidden spot"],
+        "description": "Unsafe",
+        "weapon": "weapon_molotov",
+        "position": [652.50701904297, 393.38757324219, -159.96875],
+        "viewangles": [-2.9211723804474, 91.485305786133],
+        "grenade": {
+          "run": 11,
+          "recovery_yaw": 180,
+          "run_yaw": -90
+        }
+      },
+      {
+        "name": ["Unnamed", "Bridge"],
+        "weapon": "weapon_molotov",
+        "position": [82.669219970703, 672.09661865234, -151.96875],
+        "viewangles": [-5.998589515686, 110.20803833008],
+        "grenade": {
+          "run": 20,
+          "recovery_jump": true,
+          "recovery_yaw": -90,
           "jump": true
         }
       }
@@ -17999,6 +18079,62 @@
           "run": 28,
           "recovery_jump": true,
           "recovery_yaw": -90,
+          "jump": true
+        }
+      }
+    ],
+    "de_cache_old": [
+      {
+        "name": ["Unnamed", "Fakeduck"],
+        "weapon": "weapon_molotov",
+        "position": [900.36248779297, -1434.9644775391, 1708.03125],
+        "viewangles": [-14.269103050232, 170.40612792969]
+      },
+      {
+        "name": ["Unnamed", "Heaven"],
+        "weapon": "weapon_molotov",
+        "position": [491.68954467773, -1436.8403320313, 1687.90625],
+        "viewangles": [-8.2984752655029, 145.15307617188],
+        "grenade": {
+          "delay": 11,
+          "jump": true
+        }
+      },
+      {
+        "name": ["Unnamed", "Fakeduck"],
+        "weapon": "weapon_molotov",
+        "position": [765.10015869141, -1376.5264892578, 1614.03125],
+        "viewangles": [-23.529081344604, 173.0284576416]
+      },
+      {
+        "name": ["Unnamed", "Car"],
+        "weapon": "weapon_molotov",
+        "position": [649.44201660156, 1673.1019287109, 1702.03125],
+        "viewangles": [-15.277857780457, -159.68206787109],
+        "grenade": {
+          "run": 11
+        }
+      },
+      {
+        "name": ["Unnamed", "Barrels"],
+        "weapon": "weapon_molotov",
+        "position": [380.52963256836, 1465.9768066406, 1687.0311279297],
+        "viewangles": [-16.036821365356, -155.48152160645],
+        "duck": true
+      },
+      {
+        "name": ["Unnamed", "Car"],
+        "weapon": "weapon_molotov",
+        "position": [94.540542602539, 1824.056640625, 1687.03125],
+        "viewangles": [-23.829252243042, -142.89642333984]
+      },
+      {
+        "name": ["Unnamed", "Car"],
+        "weapon": "weapon_hegrenade",
+        "position": [162.27548217773, 1893.4808349609, 1687.0250244141],
+        "viewangles": [9.0606985092163, -140.08193969727],
+        "grenade": {
+          "run": 11,
           "jump": true
         }
       }
@@ -79139,6 +79275,47 @@
         "grenade": {
           "run": 17,
           "jump": true
+        }
+      }
+    ],
+    "de_safehouse": [
+      {
+        "name": ["Unnamed", "Rock"],
+        "weapon": "weapon_molotov",
+        "position": [1992.9747314453, 186.90231323242, 440.03125],
+        "viewangles": [0.38672977685928, -178.62776184082],
+        "duck": true
+      },
+      {
+        "name": ["Unnamed", "Rock"],
+        "weapon": "weapon_hegrenade",
+        "position": [1992.9599609375, 186.6374206543, 440.03125],
+        "viewangles": [-3.6106624603271, -175.64308166504],
+        "duck": true
+      },
+      {
+        "name": ["Unnamed", "FD"],
+        "description": "DUCK",
+        "weapon": "weapon_hegrenade",
+        "position": [2655.1735839844, 115.12811279297, 400.37838745117],
+        "viewangles": [-14.569499015808, -156.02952575684],
+        "grenade": {
+          "run": 70,
+          "recovery_jump": true,
+          "recovery_yaw": 180,
+          "run_yaw": 90
+        },
+        "duck": true
+      },
+      {
+        "name": ["Unnamed", "FD"],
+        "weapon": "weapon_hegrenade",
+        "position": [2651.189453125, 111.19063568115, 402.03652954102],
+        "viewangles": [-10.55738735199, -169.728515625],
+        "grenade": {
+          "run": 13,
+          "recovery_yaw": 180,
+          "run_yaw": 90
         }
       }
     ],
