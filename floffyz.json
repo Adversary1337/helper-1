@@ -1,7 +1,7 @@
 {
   "name":"floffyz",
-  "description":"yt.com/floffyz / Old cache nades added",
-  "update_timestamp":1618223136,
+  "description":"yt.com/floffyz",
+  "update_timestamp":1618396195,
   "url":"https://raw.githubusercontent.com/floffyz/helper/main/floffyz.json",
   "locations":{
     "cs_agency": [
@@ -5668,6 +5668,32 @@
         "grenade": {
           "run": 4,
           "run_speed": true
+        }
+      }
+    ],
+    "de_anubis": [
+      {
+        "name": ["Unnamed", "Pilar [Right]"],
+        "weapon": "weapon_molotov",
+        "position": [-1599.9481201172, -12.745174407959, 0.66572570800781],
+        "viewangles": [-9.7904100418091, 85.864295959473],
+        "grenade": {
+          "run": 33,
+          "recovery_jump": true,
+          "delay": 1,
+          "jump": true
+        }
+      },
+      {
+        "name": ["Unnamed", "Pillar [Left]"],
+        "weapon": "weapon_molotov",
+        "position": [-1616.5539550781, 45.775211334229, 0.44876861572266],
+        "viewangles": [10.058479309082, 44.124389648438],
+        "grenade": {
+          "run": 17,
+          "recovery_jump": true,
+          "run_yaw": 90,
+          "jump": true
         }
       }
     ],
@@ -24582,6 +24608,51 @@
           "run": 10,
           "recovery_jump": true,
           "delay": 9,
+          "jump": true
+        }
+      }
+    ],
+    "de_elysion": [
+      {
+        "name": ["Unnamed", "1w"],
+        "weapon": "weapon_molotov",
+        "position": [716.47821044922, -84.831916809082, 9600.03125],
+        "viewangles": [-3.8118417263031, 126.75690460205],
+        "grenade": {
+          "run": 11,
+          "jump": true
+        }
+      },
+      {
+        "name": ["Unnamed", "FD"],
+        "weapon": "weapon_molotov",
+        "position": [539.47766113281, -385.00631713867, 9600.03125],
+        "viewangles": [12.035891532898, 54.177364349365],
+        "grenade": {
+          "run": 21,
+          "jump": true
+        }
+      },
+      {
+        "name": ["Unnamed", "FD"],
+        "description": "UNSAFE",
+        "weapon": "weapon_molotov",
+        "position": [570.28466796875, -341.14251708984, 9600.03125],
+        "viewangles": [-1.1954343318939, 113.51127624512],
+        "grenade": {
+          "run": 21,
+          "recovery_yaw": 180,
+          "run_yaw": -90
+        }
+      },
+      {
+        "name": ["Unnamed", "Unnamed"],
+        "weapon": "weapon_molotov",
+        "position": [-549.61578369141, -63.028755187988, 9664.03125],
+        "viewangles": [-5.6106200218201, 35.230270385742],
+        "grenade": {
+          "run": 30,
+          "recovery_jump": true,
           "jump": true
         }
       }
@@ -79274,6 +79345,24 @@
         "viewangles": [-12.700925827026, -129.64826965332],
         "grenade": {
           "run": 17,
+          "jump": true
+        }
+      },
+      {
+        "name": ["Unnamed", "Gustello"],
+        "weapon": "weapon_molotov",
+        "position": [-2379.9631347656, -2221.9560546875, 474.03125],
+        "viewangles": [-3.8960633277893, 68.59204864502],
+        "grenade": {
+          "jump": true
+        }
+      },
+      {
+        "name": ["Unnamed", "tunnel"],
+        "weapon": "weapon_molotov",
+        "position": [-3102.1142578125, 735.08837890625, 480.03125],
+        "viewangles": [-1.062410235405, -41.544773101807],
+        "grenade": {
           "jump": true
         }
       }
