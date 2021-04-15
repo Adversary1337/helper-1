@@ -1,7 +1,7 @@
 {
   "name":"floffyz",
-  "description":"yt.com/floffyz",
-  "update_timestamp":1618396195,
+  "description":"yt.com/floffyz / added nades to overpass",
+  "update_timestamp":1618501770 ,
   "url":"https://raw.githubusercontent.com/floffyz/helper/main/floffyz.json",
   "locations":{
     "cs_agency": [
@@ -18107,6 +18107,12 @@
           "recovery_yaw": -90,
           "jump": true
         }
+      },
+      {
+        "name": ["Unnamed", "B Default"],
+        "weapon": "weapon_molotov",
+        "position": [990.47357177734, -1336.033203125, 1613.103515625],
+        "viewangles": [-24.309988021851, 177.06805419922]
       }
     ],
     "de_cache_old": [
@@ -24661,8 +24667,8 @@
       {
         "name": ["Unnamed", "Plant Right"],
         "weapon": "weapon_molotov",
-        "position": [367.92330932617, -417.24105834961, 43.03125],
-        "viewangles": [-4.7650637626648, -111.87857055664],
+        "position": [367.93115234375, -427.53765869141, 43.03125],
+        "viewangles": [-4.9300580024719, -112.23870849609],
         "grenade": {
           "run": 2,
           "recovery_yaw": 180
@@ -24671,8 +24677,8 @@
       {
         "name": ["Unnamed", "Plant Right"],
         "weapon": "weapon_hegrenade",
-        "position": [367.97360229492, -411.53393554688, 43.03125],
-        "viewangles": [1.6017978191376, -111.35217285156],
+        "position": [367.97256469727, -427.54705810547, 43.03125],
+        "viewangles": [-4.9981708526611, -112.23216247559],
         "grenade": {
           "run": 8,
           "recovery_yaw": 180
@@ -24954,13 +24960,6 @@
         "grenade": {
           "run": 11
         }
-      },
-      {
-        "name": ["Back Site", "Concrete"],
-        "description": "FAKEDUCK",
-        "weapon": "weapon_molotov",
-        "position": [-383.95336914063, -1255.7253417969, -159.96875],
-        "viewangles": [-10.792067527771, 19.43176651001]
       },
       {
         "name": ["Alley", "Concrete"],
@@ -25245,12 +25244,6 @@
         "grenade": {
           "jump": true
         }
-      },
-      {
-        "name": ["push", "push"],
-        "weapon": "weapon_molotov",
-        "position": [-383.9677734375, -1294.9959716797, -110.53125],
-        "viewangles": [-12.2654705, 91.83269]
       },
       {
         "name": ["doublebox", "doublebox"],
@@ -37877,6 +37870,17 @@
         "weapon": "weapon_molotov",
         "position": [2436.9233398438, 2593.978515625, 128.03125],
         "viewangles": [-13.55492401123, 166.36747741699],
+        "grenade": {
+          "run": 6,
+          "recovery_jump": true,
+          "jump": true
+        }
+      },
+      {
+        "name": ["Unnamed", "Dark"],
+        "weapon": "weapon_molotov",
+        "position": [2436.9367675781, 2593.9692382813, 128.03125],
+        "viewangles": [-14.608268737793, 166.37843322754],
         "grenade": {
           "run": 6,
           "recovery_jump": true,
@@ -79358,10 +79362,123 @@
         }
       },
       {
-        "name": ["Unnamed", "tunnel"],
+        "name": ["Unnamed", "T Water"],
         "weapon": "weapon_molotov",
         "position": [-3102.1142578125, 735.08837890625, 480.03125],
         "viewangles": [-1.062410235405, -41.544773101807],
+        "grenade": {
+          "jump": true
+        }
+      },
+      {
+        "name": ["Unnamed", "Water"],
+        "description": "Sandbags",
+        "weapon": "weapon_molotov",
+        "position": [-3747.7692871094, -2089.7907714844, 483.84033203125],
+        "viewangles": [-3.1877973079681, 42.183963775635],
+        "grenade": {
+          "run": 78,
+          "jump": true
+        }
+      },
+      {
+        "name": ["Unnamed", "Pillar"],
+        "weapon": "weapon_molotov",
+        "position": [-3773.7253417969, -2037.0671386719, 493.14123535156],
+        "viewangles": [-2.324054, 38.092316],
+        "grenade": {
+          "run": 67,
+          "recovery_yaw": 0,
+          "jump": true
+        }
+      },
+      {
+        "name": ["Unnamed", "Gustello"],
+        "weapon": "weapon_molotov",
+        "position": [-2389.0471191406, 64.471038818359, 423.46704101563],
+        "viewangles": [-73.164077758789, -22.732307434082],
+        "grenade": {
+          "run": 3,
+          "recovery_yaw": 0,
+          "jump": true
+        }
+      },
+      {
+        "name": ["Unnamed", "Barrels"],
+        "weapon": "weapon_hegrenade",
+        "position": [-1881.5756835938, 1010.9007568359, 480.03125],
+        "viewangles": [24.573282241821, -53.716777801514],
+        "grenade": {
+          "run": 21,
+          "recovery_jump": true,
+          "run_yaw": 90,
+          "jump": true
+        }
+      },
+      {
+        "name": ["Unnamed", "Underwater"],
+        "weapon": "weapon_molotov",
+        "position": [-3468.8200683594, -21.432811737061, 518.08465576172],
+        "viewangles": [1.1638069152832, 0.36364364624023],
+        "grenade": {
+          "recovery_jump": true,
+          "jump": true
+        }
+      },
+      {
+        "name": ["Unnamed", "Tunnel"],
+        "weapon": "weapon_molotov",
+        "position": [-3102.0830078125, 735.13519287109, 480.03125],
+        "viewangles": [-2.226350069046, -41.91881942749],
+        "grenade": {
+          "recovery_jump": true,
+          "jump": true
+        }
+      },
+      {
+        "name": ["Unnamed", "BARRELS"],
+        "description": "BROKEN",
+        "weapon": "weapon_molotov",
+        "position": [-3672.9052734375, -2017.1539306641, 476.71923828125],
+        "viewangles": [-4.3062829971313, 41.48770904541],
+        "grenade": {
+          "run": 52,
+          "jump": true
+        }
+      },
+      {
+        "name": ["Unnamed", "Water"],
+        "weapon": "weapon_molotov",
+        "position": [-3739.8559570313, -2105.2551269531, 481.14196777344],
+        "viewangles": [-2.838805437088, 44.26350402832],
+        "grenade": {
+          "run": 86,
+          "jump": true
+        }
+      },
+      {
+        "name": ["Unnamed", "Connector Door"],
+        "description": "up",
+        "weapon": "weapon_molotov",
+        "position": [-1102.1204833984, 186.15687561035, 98.03125],
+        "viewangles": [-19.182594299316, -129.56864929199],
+        "grenade": {
+          "run": 24,
+          "jump": true
+        }
+      },
+      {
+        "name": ["Unnamed", "Toilet"],
+        "weapon": "weapon_molotov",
+        "position": [-1559.96875, -728.76165771484, 52.712799072266],
+        "viewangles": [-65.274085998535, 163.59880065918],
+        "duck": true
+      },
+      {
+        "name": ["Unnamed", "test"],
+        "weapon": "weapon_molotov",
+        "position": [-2843.8020019531, -1587.6789550781, 439.25277709961],
+        "viewangles": [-2.524578332901, 56.342277526855],
         "grenade": {
           "jump": true
         }
